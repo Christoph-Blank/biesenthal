@@ -32,4 +32,3 @@ python -m SimpleHTTPServer 8000
 
 #### config.json / other configs
   - Configurate the viewer for your needs
-test
