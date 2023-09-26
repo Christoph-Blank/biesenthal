@@ -283,7 +283,7 @@
             {
                 "name": "3D",
                 "type": "folder",
-                "isVisibleInTree": false,
+                "isVisibleInTree": true,
                 "children": [
                     {
                         "id": "9000",
