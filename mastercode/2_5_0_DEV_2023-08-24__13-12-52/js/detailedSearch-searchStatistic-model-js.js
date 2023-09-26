@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[190],{1872:function(i,e,t){"use strict";t.r(e),function(i){var t=i.Model.extend({defaults:{attribute:void 0,label:void 0,vals:void 0,activeFilters:void 0}});e.default=t}.call(this,t(5))}}]);
