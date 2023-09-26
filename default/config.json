@@ -49,8 +49,8 @@
         "mapView": {
             "backgroundImage": "./ressources/img/backgroundCanvas.jpeg",
             "startCenter": [
-		410914.0, 
-		5832652.0
+		413308.00, 
+		5846372.00
             ],
             "extent": [
                 151000,
