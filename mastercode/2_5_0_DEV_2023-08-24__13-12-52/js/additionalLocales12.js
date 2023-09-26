@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[22],{1997:function(o){o.exports=JSON.parse('{"footerCustom":{"onErrorAddonImport":"Fehler: Es konnten nicht alle Addons im Footer geladen werden. Bitte überprüfen Sie die Addon-Konfiguration des Portals."}}')}}]);

@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[29],{2004:function(o){o.exports=JSON.parse('{"mousePositionCustom":{"hint":"Move the computer mouse over your screen.","north":"N","east":"E","mousePositionText":"Position"}}')}}]);

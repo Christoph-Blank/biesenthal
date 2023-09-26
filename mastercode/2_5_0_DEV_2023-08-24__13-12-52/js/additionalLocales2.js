@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[30],{1987:function(n){n.exports=JSON.parse('{"backgroundSwitcher":{"i18nTitle":"Hintergrundkarte","i18nShowSwitcher":"Einblenden","i18nHideSwitcher":"Ausblenden"}}')}}]);

@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[23],{1998:function(o){o.exports=JSON.parse('{"footerCustom":{"onErrorAddonImport":"Error: Failed to load addon(s) for the footer. Please check addon configuration of the portal."}}')}}]);

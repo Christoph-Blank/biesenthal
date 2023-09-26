@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[168,169],{1860:function(e,t,n){"use strict";n.r(t),function(e){var n=e.Model.extend({defaults:{name:void 0,label:void 0,glyphicon:void 0}});t.default=n}.call(this,n(5))},1917:function(e,o,i){"use strict";i.r(o),function(e){var n=i(1860),t=e.Collection.extend({model:n.default});o.default=t}.call(this,i(5))}}]);

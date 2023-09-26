@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[28],{2003:function(e){e.exports=JSON.parse('{"mousePositionCustom":{"hint":"Bewegen Sie die Maus über die Karte","north":"N","east":"O","mousePositionText":"Position"}}')}}]);
