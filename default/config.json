@@ -1,0 +1,336 @@
+{
+    "Portalconfig": {
+        "layersRemovable": true,
+        "singleBaselayer": true,
+        "treeType": "classic",
+        "displayHeader": false,
+        "detailedSearch": {
+            "searchApiBaseUrl": "https://search.geobasis-bb.de",
+            "searchApiGeometry": "complex",
+            "categories": [
+                {"name": "gazetteer"},
+                {"name": "metadata"},
+                {"name": "kataster"},
+                {"name": "haltestellen"},
+                {"name": "kartenblatt"}
+            ],
+            "showLabelOnMap": true,
+            "limitCompletions": 5,
+            "limit": 10,
+            "minChars": {
+                "default": 3,
+                "strassendaten": 2
+            },
+            "glyphIcons": {
+                "search": "fas fa-search",
+                "restrictToBbox": "fas fa-eye-slash",
+                "restrictToBboxActive": "fas fa-eye",
+                "categories": {
+                    "default": "fas fa-infinity",
+                    "gazetteer": "fas fa-map-marker-alt",
+                    "kartenblatt": "fas fa-border-all",
+                    "haltestellen": "fas fa-bus-alt",
+                    "kataster": "fas fa-home",
+                    "metadata": "fas fa-map",
+                    "strassendaten": "fas fa-road"
+                },
+                "sortDescending": "fas fa-caret-down",
+                "sortAscending": "fas fa-caret-up",
+                "hitMap": "fas fa-plus-circle",
+                "hitMetadata": "fas fa-info-circle",
+                "hitDownload": "fas fa-download",
+                "hitCapabilities": "fas fa-plug"
+            },
+            "defaultSortBy": "relevance",
+            "defaultSortOrder": "desc",
+            "alignDetailedSearch": "center",
+            "position": "detached"
+        },
+        "mapView": {
+            "backgroundImage": "./ressources/img/backgroundCanvas.jpeg",
+            "startCenter": [
+                368033,
+                5806749
+            ],
+            "extent": [
+                151000,
+                5250000,
+                500650,
+                6100000
+            ],
+            "options": [
+                {
+                    "resolution": 420,
+                    "scale": 1500000,
+                    "zoomLevel": 0
+                },
+                {
+                    "resolution": 280,
+                    "scale": 1000000,
+                    "zoomLevel": 1
+                },
+                {
+                    "resolution": 140,
+                    "scale": 500000,
+                    "zoomLevel": 2
+                },
+                {
+                    "resolution": 70,
+                    "scale": 250000,
+                    "zoomLevel": 3
+                },
+                {
+                    "resolution": 28,
+                    "scale": 100000,
+                    "zoomLevel": 4
+                },
+                {
+                    "resolution": 14,
+                    "scale": 50000,
+                    "zoomLevel": 5
+                },
+                {
+                    "resolution": 7,
+                    "scale": 25000,
+                    "zoomLevel": 6
+                },
+                {
+                    "resolution": 2.8,
+                    "scale": 10000,
+                    "zoomLevel": 7
+                },
+                {
+                    "resolution": 1.4,
+                    "scale": 5000,
+                    "zoomLevel": 8
+                },
+                {
+                    "resolution": 0.7,
+                    "scale": 2500,
+                    "zoomLevel": 9
+                },
+                {
+                    "resolution": 0.28,
+                    "scale": 1000,
+                    "zoomLevel": 10
+                },
+                {
+                    "resolution": 0.14,
+                    "scale": 500,
+                    "zoomLevel": 11
+                }
+            ],        
+            "epsg": "EPSG:25833",
+            "resolution": 280
+        },
+        "menu": {
+            "menuPosition": "left",
+            "menuWidth": 50,
+            "tree": {
+                "name": "Kartenebenen",
+                "glyphicon": "fas fa-layer-group fa-lg"
+            },
+            "tools": {
+                "name": "Werkzeuge",
+                "glyphicon": "fas fa-tools fa-lg",
+                "children": {
+                    "gfi": {
+                        "name": "translate#common:menu.tools.gfi",
+                        "showPaging": true,
+                        "isActive": true,
+                        "glyphicon": "fas fa-map-marked",
+                        "contentWidth": "300",
+                        "contentHeight": "150",
+                        "iframeContentWidth": "550",
+                        "iframeContentHeight": "350",
+                        "featureCount": 5
+                    },
+					"legend": {
+                        "name": "translate#common:menu.tools.legend",
+                        "showCollapseAllButton": true,
+                        "glyphicon": "fas fa-list fa-lg"
+                    },
+                    "measure": {
+                        "name": "translate#common:menu.tools.measure",
+                        "glyphicon": "fas fa-ruler-horizontal fa-lg",
+                        "displayDeviance": false
+                    },
+                    "draw": {
+                        "name": "translate#common:menu.tools.draw",
+                        "glyphicon": "fas fa-pencil-alt fa-lg"
+                    },
+                    "searchByCoord": {
+                        "name": "translate#common:menu.tools.searchByCoord",
+                        "glyphicon": "fas fa-search-location fa-lg"
+                    },
+                    "coord": {
+                        "name": "translate#common:menu.tools.coord",
+                        "glyphicon": "fas fa-crosshairs fa-lg"
+                    },
+                    "coordinateTransform": {
+                        "name": "translate#common:menu.tools.coordinateTransform",
+                        "glyphicon": "fas fa-exchange-alt fa-lg"
+                    },
+                    "importer": {
+                        "name": "translate#common:menu.tools.importer",
+                        "glyphicon": "fas fa-upload fa-lg",
+                        "maxFileSize": 10000000
+                    },
+                    "exporter": {
+                        "name": "translate#common:menu.tools.exporter",
+                        "glyphicon": "fas fa-save fa-lg"
+                    }
+                }
+            }
+        },
+        "elevationProfile": {
+            "styleChart": {
+                "markerWidth": 5
+            }
+        },
+        "footerCustom": {
+            "elements": [
+
+                {
+                    "id": "projectionSwitcher",
+                    "hiddenOnSmallScreen": false,
+                    "options": {
+                        "allowedCrs": [
+                            "EPSG:4326",
+                            "EPSG:3857",
+                            "EPSG:25833",
+                            "EPSG:25832"
+                        ],
+                        "crsNameMapping": {
+                            "EPSG:4326": "WGS84 (EPSG:4326)",
+                            "EPSG:3857": "Web Mercator (EPSG:3857)",
+                            "EPSG:25832": "UTM32 (EPSG:25832)",
+                            "EPSG:25833": "UTM33 (EPSG:25833)"
+                        }
+                    }
+                },
+                {
+                    "id": "scaleLineCustom"
+                },
+                {
+                    "id": "mousePositionCustom"
+                },
+                {
+                    "id": "attributionsCustom",
+                    "options": {
+                        "attributions": [
+                            {
+                                "title": "Nutzungshinweise zur Kartenanwendung anzeigen",
+                                "url": "https://geoportal.brandenburg.de/de/cms/info/nutzungshinweise-zur-kartenanwendung"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "controls": {
+            "backForward": true,
+            "button3d": true,
+            "orientation3d": true
+        }
+    },
+    "Themenconfig": {
+        "classicTree": [
+            {
+                "name": "Liegenschaftskataster",
+                "type": "folder",
+                "children": [
+                    {
+                        "id": "3002",
+                        "name": "Gemarkungen"
+                    },
+                    {
+                        "id": "3001",
+                        "name": "Fluren (ab 1:40.000)"
+                    },
+                    {
+                        "id": "3000",
+                        "name": "Flurstücke (ab 1:2.500)"
+                    },
+                    {
+                        "id": "3004",
+                        "name": "Bodenschätzung (ab 1:2.500)"
+                    }
+                ]
+            },
+            {
+                "name": "Verwaltungsgebiete",
+                "type": "folder",
+                "children": [
+                    {
+                        "id": "2002",
+                        "name": "Ortsteile (ab 1:50.000)"
+                    },
+                    {
+                        "id": "2001",
+                        "name": "Gebietsnamen"
+                    },
+                    {
+                        "id": "2000",
+                        "name": "Verwaltungsgrenzen"
+                    },
+                    {
+                        "id": "2003",
+                        "name": "Landesgrenze WFS"
+                    }
+                ]
+            },
+            {
+                "name": "3D",
+                "type": "folder",
+                "isVisibleInTree": false,
+                "children": [
+                    {
+                        "id": "9000",
+                        "name": "Gebäude",
+                        "visibility": true
+                    },
+                    {
+                        "id": "9001",
+                        "name": "Gelände",
+                        "visibility": true
+                    }
+                ]
+            },
+            {
+                "id": "4000",
+                "name": "Postleitzahlen (ab 1:250.000)",
+                "visibility": false
+            },
+            {
+                "id": "6000",
+                "name": "Geländemodell",
+                "visibility": false
+            },
+            {
+                "name": "Hintergrundkarte",
+                "isVisibleInTree": false,
+                "type": "folder",
+                "children": [
+                    {
+                        "id": "1000",
+                        "name": "Topographie",
+                        "visibility": true
+                    },
+                    {
+                        "id": "1001",
+                        "name": "Topographie (grau)"
+                    },
+                    {
+                        "id": "7000",
+                        "name": "Luftbild"
+                    },
+                    {
+                        "id": "7004",
+                        "name": "Luftbild & Topogr."
+                    }
+                ]
+            }
+        ]
+    }
+}
