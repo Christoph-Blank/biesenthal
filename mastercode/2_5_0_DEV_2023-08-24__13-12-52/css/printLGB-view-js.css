@@ -1,0 +1,27 @@
+body {
+  color: #333333 !important;
+}
+.masterportal-container {
+  font-family: "MasterPortalFont", "Arial Narrow", Arial, sans-serif;
+  color: #333333;
+}
+.font-bold {
+  font-family: "MasterPortalFont Bold", "Arial Narrow", Arial, sans-serif;
+}
+.panel-default > .panel-heading {
+  color: #333333;
+}
+#printTool.form-horizontal {
+  min-width: 16vw;
+}
+#printTool input[type="checkbox"] {
+  margin-top: 2px;
+  margin-left: 0;
+}
+#printLayoutElements > .col-sm-5 {
+  padding-right: 0px;
+}
+#scaleInputType > .form-control {
+  margin-top: 6px;
+}
+

@@ -1,0 +1,16 @@
+.detailed-search-pagination {
+  display: flex;
+}
+.detailed-search-pagination li.previous {
+  flex: 1;
+}
+.detailed-search-pagination .paging-detail-info {
+  flex: 2;
+}
+.detailed-search-pagination .paging-detail-info .pageselector input {
+  width: 40px;
+}
+.detailed-search-pagination li.next {
+  flex: 1;
+}
+
