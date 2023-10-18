@@ -49,14 +49,14 @@
         "mapView": {
             "backgroundImage": "./ressources/img/backgroundCanvas.jpeg",
             "startCenter": [
-		413308.00, 
-		5846372.00
+		419881.00, 
+		5846631.00
             ],
             "extent": [
-                151000,
-                5250000,
-                500650,
-                6100000
+                413728.00,
+                5843215.00,
+                426265.00,
+                5850117.00
             ],
             "options": [
                 {
@@ -121,7 +121,7 @@
                 }
             ],        
             "epsg": "EPSG:25833",
-            "resolution": 28
+            "resolution": 7
         },
         "menu": {
             "menuPosition": "left",
