@@ -1,5 +1,15 @@
 [
     {
+        "id": "Wanderweg_Froschmuehle_L",
+        "name": "Wanderweg_Froschmuehle_L",
+        "url": "/biesenthal/resources/GeoJson/Wanderweg_Froschmuehle.geojson",
+        "typ": "GeoJSON",
+        "gfiTheme": "default",
+        "gfiAttributes": "ignore",
+        "legendURL": "ignore",
+        "cache": false
+    },
+    {
         "id": "1000",
         "name": "WebAtlasDE BB/BE Halbton und Topplus",
         "url": "https://isk.geobasis-bb.de/mapproxy/webatlasde_topplus/service/wms?",
