@@ -258,6 +258,17 @@
                     }
                 ]
             },
+	    
+            {
+                "name": "Wanderwege",
+                "type": "folder",
+                "children": [
+                    {
+                        "id": "Wanderweg_Froschmuehle_L",
+                        "name": "Wanderweg Froschmühle"
+                    }
+                ]
+            },Wanderweg_Froschmuehle_L
             {
                 "name": "Verwaltungsgebiete",
                 "type": "folder",
